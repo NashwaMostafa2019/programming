@@ -1,0 +1,837 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.rightside{
+  display: block;
+  align-items:center ;
+}
+
+.rightsidenavbar{
+  display: flex;
+  align-items: center;
+}
+
+.navcontainer{
+   
+    display: flex;
+    justify-content: space-around;
+
+   align-items: center;   /*center vertically*/
+   /* background-color: #051951; */
+   /* background-color:white; */
+   
+
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    
+}
+
+nav:hover{
+    /* background-color: rgba(237, 237, 253, 0.615); */
+    background-color: #051951;
+} 
+
+.logo{
+    margin-right: 4%;
+    background-color: white;
+    border-radius:25%;
+}
+
+li a{
+    text-decoration: none;
+    /* color: #051951;  */
+    font-size: larger;
+    color: white;
+}
+
+li a:hover{
+    color:#F18F01;
+    /* color: #024CAA; */
+    
+   
+   
+}
+
+/* end of navbar */
+
+body{
+    background-image: url("../images/10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* end of background */
+
+.firsthead{
+    
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 12%;
+    /* background-color: deeppink; */
+
+   
+}
+.heading{
+  /* background-color: #8f9dc413; */
+  /* background-color: deeppink; */
+  background-color: #051951ac;
+  border-radius: 40%;
+}
+
+
+
+
+.secondhead{
+    color: #F18F01;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+
+
+
+
+/* end of first page */
+.aboutus{
+    /* background-color: #051951; */
+    background-color: #051951;
+    color:#F18F01;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.aboutusparagraph{
+    padding-top: 3%;
+    color: white;
+    font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.aboutusparagraphyellow{
+    color:#F18F01;
+    font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+/* end about us section */
+.ourprojectstitle{
+    padding-top: 5%;
+    color: #F18F01;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.mohemtna{
+    display: flex;
+}
+#rightside{
+   padding-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+
+/* start table */
+table{
+    width: 100%;
+    padding-bottom: 60px;
+}
+th{
+    background-color: #051951;
+    height: 50px;
+    color: #F18F01;
+    font-size: larger;
+}
+
+td{
+    background-color: #8f9dc4;
+    text-align: center;
+}
+
+
+/* start photos */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #051951a4;
+    padding: 10px;
+    margin-bottom: 3%;
+  }
+  .grid-item {
+    
+    /* background-color: #8f9dc4; */
+    background-color: #051951a4;
+    /* border: 1px solid #051951; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  .imagegrid{
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+  }
+
+  /* contact */
+  .contact{
+    background-color: #051951;
+    color: white;
+    padding-top: 5%;
+  
+    
+  }
+  h2{
+    color: #F18F01;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+
+  /* photo circle */
+  .profile-container {
+    /* display: inline-block; */
+    float: right;
+    width: 50%;
+    
+  }
+  
+  .circle-photo {
+    width: 50%;  /* Adjust to the size of your photo */
+    height: 50%; /* Adjust to the size of your photo */
+    border-radius: 25%;  /* Makes the photo circular */
+    object-fit: cover;   /* Ensures the image covers the entire circle without distortion */
+    border: 3px solid #fff; /* Optional: adds a border around the image */
+    float: right;
+    
+  }
+
+  .contactsection{
+    display: flex;
+    justify-content:space-around ;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #071b52;
+    border-radius:25%;
+
+    
+  }
+
+  .contactleft{
+    font-size: 30px;
+    display: flex;
+    
+    
+  }
+
+  .contactdetails{
+    padding-left: 5%;
+  }
+ 
+
+
+
+
+  /* footer */
+
+  .footer{
+    background-color:#051951;
+    color: #A5ACBA;
+    padding-block: 64px;
+  }
+  .footer-content{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  
+   
+  }
+  
+  
+  .footer .container  .footer-col h4{
+    padding-bottom: 15px;
+    color: #F9F9F9;
+  
+  }
+  
+  .footer .container  .footer-col p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:55%;
+  }
+  
+  .footer ul{
+    list-style: none;
+   
+  
+  }
+  
+  
+  .footer .container  li {
+     display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    
+   
+  
+   }
+  
+  .footer .container  li a{
+   color: #A5ACBA;
+   size: 14px;
+  
+   
+  }
+  
+  .footer .container  .footer-col .email_form{
+   width: 40%;
+   
+    height: 46px;
+    border-radius:  10px 0  0  10px;
+    border-style: none;
+    background-color: #2C3444;
+    
+  }
+  .footerrightside{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rights{
+  
+    text-align: center;
+    padding-top: 32px;
+   border-top: 1px solid rgba(46, 53, 69, 1)
+  
+  }
+  
+/* end footer */
+.portfolio{
+    /* text-decoration: none; */
+    color:#F18F01;
+}
+
+nav .navcontainer .rightside .fa-bars{
+  display: none;
+} 
+
+.imgcategory{
+  display: block; margin: 0 auto;
+}
+
+
+/* categories */
+.categories{
+  display: flex;
+  background-color:#051951;
+  border-radius: 55px;
+  justify-content: center;
+  /* height: 500px; */
+  justify-content: space-around;
+
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  padding-top: 4%;
+}
+
+/* done all project */
+
+/* from my portfolio */
+/* each project */
+.eachproject{
+   
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  background-color:#051951;
+  border-radius: 55px;
+  
+  margin-bottom: 25px;
+  
+
+}
+
+/* categories */
+
+
+
+
+.rightsideproject{
+  float: right;
+  width: 50%;
+  
+  padding-right: 10%;
+ 
+ border-radius: 15%;
+  object-fit: cover; 
+}
+
+.leftsideproject{
+  float:left;
+  width: 50%;
+  padding-left: 5%;
+  
+  padding-right: 60px;
+ 
+ border-radius: 15%;
+  object-fit: cover; 
+}
+
+
+h4{
+  font-size: 40px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #F18F01;
+ 
+}
+
+
+.coursescontainer{
+  display: flex;
+}
+/* .categories{
+  display: flex;
+  width: 100%;
+
+  
+
+} */
+
+.course{
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 55px;
+  background-color:#051951;
+}
+
+.image-container{
+  width: 40%;
+  height: 100%;
+  background-color:#051951;
+  padding-bottom: 64px;
+}
+
+.imgcategory{
+  width: 400px; /* Set the size of the image */
+  height: 300px; /* Set the size of the image */
+  border-radius: 25%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
+.imgcourse{
+  width: 450px; /* Set the size of the image */
+  height: 300px; /* Set the size of the image */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
+
+/* start projects */
+
+h3{
+  margin-top: 2%;
+  font-size: 50px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#F18F01;
+ 
+}
+.rectangle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.secondarybutton{
+ 
+
+  background-color: #ed964f;
+  border-radius: 55px;
+  border-style: solid ;
+  width: 350px;
+  height: 70px;
+  font-size: 18px;
+  color: black;
+  text-align: center; 
+  border-color: black brown rgb(10, 10, 10) brown;
+  border-width: 8px;
+  /* to make button in center */
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  cursor: pointer;
+
+
+
+ 
+
+}
+
+.secondarybutton:hover {
+ background-color: #1462cf; /* Darker shade on hover */
+}
+
+.details{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  color: white;
+  margin-top: 10%;
+  font-size: 20px;
+ 
+}
+
+.primarybutton{
+ 
+  border-color: #F18F01;
+  background-color:#fffbf662;
+  border-radius: 55px;
+  border-style: solid ;
+  width: 150px;
+  height: 56px;
+  font-size: 15px;
+  color:white;
+  text-align: center; 
+
+
+  cursor: pointer;
+}
+
+.mobileimg{
+  display: none;
+}
+
+/* responsive */
+@media (max-width:768px){
+
+
+  .mobileimg{
+    display: none;
+  }
+
+  .mainpage{
+    display: none;
+  }
+
+  li {
+    display: inline;
+    padding: 2px;
+    
+}
+
+.firsthead{
+  font-size: 40px;
+}
+
+.secondhead{
+  font-size: 40px;
+}
+
+.mohemtna{
+  display: block;
+}
+
+.mohemtnaimg{
+/* display: none; */
+width: 50%;
+height: 50%;
+}
+
+.circle-photo{
+  display: none;
+}
+
+/* for projectsand courses */
+.image-container{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+ 
+  margin-bottom: 20%;
+}
+
+.categories{
+
+ padding-bottom: 64px;
+ display: block; 
+ padding-bottom: 10%;
+ 
+
+  }
+
+  .imgcategory {
+      width: 400px;
+     
+      border-radius: 25%;
+      object-fit: cover;
+      position: absolute;
+  }
+
+  /* h4{
+      text-align: center;
+  } */
+
+  .categoriesclass{
+      padding-bottom:10px;
+     
+
+  }
+  
+  
+
+ 
+
+  .projects{
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+
+  .rightsideproject{
+      float: right;       
+      width: 70%; 
+      border-radius: 5%; 
+      object-fit: cover; /* Ensures the image covers the circle without distortion */
+  }
+
+
+  .coursescontainer{
+      display: block;
+      
+  }
+
+  .course{
+      width: 90%;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+      
+      border-radius: 55px;
+      background-color: #be901a;
+   }
+
+   .imgcourse{
+      align-self: center;
+      width: 450px; 
+      height: 300px; 
+      border-radius: 50%; 
+      object-fit: cover;
+  }
+  
+  .coursescontainer{
+    display: block;
+    
+}
+
+.course{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+    border-radius: 55px;
+    background-color:#051951;
+ }
+
+ .imgcourse{
+    align-self: center;
+    width: 450px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.contacticons{
+    display: block;
+}
+
+}
+
+@media(max-width:475px){
+
+  .mobileimg{
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+
+  .rightsideproject{
+    display: none;
+
+  }
+
+  .logo{
+    margin: 0px;
+    background-color: white;
+    border-radius:25%;
+    width: 50px;
+    height: 50px;
+    /* margin-right: -100px; */
+
+}
+  .navcontainer{
+   
+    display: flex;
+    justify-content: space-around;
+
+   align-items: center;   /*center vertically*/
+   background-color: #051951fe;
+   /* background-color:white; */
+   
+
+}
+  nav{
+    display: block;
+  }
+
+  /* top navbar */
+  .topnav{
+    display: none;
+  }
+
+ 
+
+  nav .navcontainer .rightside .fa-bars {
+    /* display: block; */
+    display: none;
+  }
+
+
+  .mohemtna{
+    display: block;
+}
+
+.mohemtnaimg{
+  /* display: none; */
+  width: 50%;
+  height: 50%;
+}
+
+
+.contactsection{
+  display: flex;
+  justify-content:space-around ;
+  margin-right: 10%;
+  margin-left: 10%;
+  align-items: center;
+  background-color: #071b52;
+  border-radius:25%;
+
+  
+}
+
+
+.contactemail{
+      font-size: medium;
+}
+
+.contact{
+  
+  padding-right: 10%;
+}
+
+.circle-photo{
+  display: none;
+}
+.image-container{
+  display: block;
+  margin-bottom: 250px;
+}
+
+.imgcourse{
+  width: 100%;
+}
+
+.contactleft{
+  display: block;
+}
+
+.imgcategory{
+  width: 75%;
+}
+.eachproject{
+  display: block;
+  
+}
+.leftsideproject{
+  display: block;
+
+  background-color: #051951;
+  margin-bottom: 20%;
+  padding-top: 10%;
+ 
+}
+
+/* .imgcategory{
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+} */
+
+.secondarybutton{
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  height: 100%;
+}
+
+
+}
+
+
+/* done all */
+/* for language */
+/* اللغة الإنجليزية */
+[lang="en"] {
+  direction: rtl;
+  font-family: Arial, sans-serif;
+}
+
+/* اللغة العربية */
+[lang="ar"] {
+  direction: ltr;
+  font-family: 'Arabic Font', sans-serif;
+}
+
+/*end language */
+
+
+
+
