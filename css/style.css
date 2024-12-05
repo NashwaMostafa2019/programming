@@ -684,6 +684,9 @@ height: 50%;
 
 @media(max-width:475px){
 
+    .leftsideproject{
+  width: 75%;
+   }
   .mobileimg{
     display: block;
     width: 100%;
